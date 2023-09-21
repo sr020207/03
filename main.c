@@ -3,16 +3,14 @@
 
 int main(int argc, char *argv[])
 {
-	char c;
-	int i;
-	
-	printf("input a number : ");
-	scanf("%c", &c);
-	
-	i = c - '0';
-	printf("The input number ASCII is %i\n", c);
-	printf("The input number is %i\n", i);
-	
-	system("PAUSE");
-	return 0;
+   char c;
+   
+   printf("input a character : "); 
+   scanf("%c", &c); 
+    
+ 
+   printf("the nect character of %c (%d) is (%d)\n", c, c, c+1, c+1);
+   
+   system("PAUSE");
+   return 0;
 }
